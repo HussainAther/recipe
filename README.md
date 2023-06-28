@@ -57,7 +57,8 @@ Here's a breakdown of the structure:
         * base.html: This is the base template that other templates can extend.
         * register.html: This is the template for the user registration page.
         * login.html: This is the template for the login page.
-    *__init__.py: This is the initialization file for the Flask application.
+
+    * __init__.py: This is the initialization file for the Flask application.
     * models.py: This file contains the model classes for your database tables.
     * routes.py: This file contains the route definitions and view functions for your application.
     * helpers.py: This file contains your helper functions for common tasks.
@@ -104,3 +105,12 @@ Visit the ElephantSQL website: https://www.elephantsql.com/
 * Run your Flask app and test the CRUD operations against the ElephantSQL database.
 * Verify that data is being created, retrieved, updated, and deleted as expected.
 * Inspect the database directly using tools like pgAdmin or connect to it via command-line tools to confirm the changes.
+
+## Troubleshooting
+If you run into issues, you could try changing the file versions on packages such as
+
+```
+pip install psycopg3
+```
+
+for Mac. 
