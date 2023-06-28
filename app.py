@@ -9,7 +9,8 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@hostname/database'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://mxextjzb:QAYIJflQwwAKtSIDO6cdylZHy4HLOIYG@rajje.db.elephantsql.com/mxextjzb' 
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@hostname/database'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
