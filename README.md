@@ -6,6 +6,7 @@ Set the 'postgresql://username:password@hostname/database' in app.config['SQLALC
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://myusername:mypassword@localhost/mydatabase'
 
+```
 recipe/
     ├── static/
     │   ├── css/
@@ -20,6 +21,7 @@ recipe/
     ├── config.py
     ├── requirements.txt
     └── run.py
+```
 
 Here's a breakdown of the structure:
 
